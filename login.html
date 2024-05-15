@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <script src="https://kit.fontawesome.com/07ef07d65c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilo.css">
+    <title>Formulario</title>
+</head>
+<body id="corpo">
+    <header>
+        <nav class="navbar">
+            <a href="inicio.html" class="logo">TECNOLOGUIA</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="login.html" class="nav-link">Login</a></li>
+                <li class="nav-item"><a href="cadastro.html" class="nav-link">Cadastro</a></li>
+                <li class="nav-item"><a href="#Contato" class="nav-link">Contato</a></li>
+            </ul>
+
+            <div class="hamburguer">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <img src="test.png" alt="">
+    </div>
+
+    <div>
+        <form id="forma">
+    
+            <h3 class="titulo">LOGIN</h3>
+
+          <section id="secao">
+            <label for="email">Email</label>
+            <div class="a">
+                <i class="fa-solid fa-envelope"></i>
+                <input id="email" placeholder="fulano@exemplo.com" type="email" class="inputs required" oninput="emailValidate()">
+            </div>
+            <span id="emailError" class="error-menssage" > Preencha o email</span>
+  <br>
+            <label for="senha">Senha</label>
+            <div class="a">
+                <i class="fa-solid fa-lock"></i>
+                <input id="senha" placeholder="digite sua senha" type="password" class="inputs required" oninput="senhaValidate()">
+                <i id="togglesenha" class="fa fa-eye"></i>
+            </div>
+            <span id="senhaError" class="error-menssage" > Preencha a senha</span>
+          </section>
+
+            <div class="button">
+                <button type="submit" class="btn btn-success">Entrar</button> 
+                <br>
+                <br>
+            </div>   
+
+           
+            <div class="uabb-if-end-text-wrap">
+                <div class="uabb-if-input-group uabb-if-row uabb-if-custom-link">
+                    <a class="uabb-if-lost-your-pass-label" href="cadastro.html">Cadastrar |</a>
+                </div>
+                <div class="uabb-if-input-group uabb-if-row uabb-if-lost-password">
+                    <a class="uabb-if-lost-your-pass-label" href="recuperarsenha.html"> Esqueci minha senha</a>
+                </div>
+            </div>
+            
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

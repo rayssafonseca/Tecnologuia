@@ -1,0 +1,499 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/d3-egoistism');
+@import url('https://fonts.cdnfonts.com/css/radley-2');
+@import url('https://fonts.cdnfonts.com/css/star-killers');
+@import url('https://fonts.cdnfonts.com/css/armygedon');
+@import url('https://fonts.cdnfonts.com/css/forever-after');  
+@import url('https://fonts.cdnfonts.com/css/petitinho');
+@import url('https://fonts.cdnfonts.com/css/curvert');
+@import url('https://fonts.cdnfonts.com/css/giantypo'); 
+@import url('https://fonts.cdnfonts.com/css/fixedsys-62');
+
+:root {
+    --primary-color: #0A1128;
+    --white-color: #FFFFFF;
+    --light-gray-color: #EEEEEE;
+    --secondary-color: crimson;
+    --gap: 3rem;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Bitter' , sans-serif;
+    background: linear-gradient(-30deg, #bbc1d6, #c2c9e5);
+    
+}
+#form{
+    position:relative;
+    top: -44%;
+    left: 25%;
+    height: 410px;
+    transform: translate(-50%, -50%);
+    background: #cdd7f8;
+    border-radius: 10px;
+    border-style: solid;
+    border: 1px #111010 solid;
+    padding: 55px;
+    max-width: 375px;
+    align-items: center;
+    color: #161525;
+}
+.title{
+    font-size: 2.4em;
+    margin-bottom: 1%;
+    text-align: center;
+    color: #000000;
+    font-family: 'Inika';
+    margin-top: -30px;
+}
+
+input#username{
+    background-color: #cdd7f8;
+}
+input#user{
+    background-color: #cdd7f8;
+}
+
+.input{
+    min-width: 280px;
+    border-radius: 15px;
+    border: 1px #141a33 solid;
+    padding: 5px;
+    margin: 3px 0px 16px -5px;
+}
+.input i{
+    font-size: 1.0em;
+    padding: 5px;
+}
+.input input{
+    width: 80%;
+    border: none;
+    outline: none;
+    font-family:'Poppins' , sans-serif;
+    transform: translateY(-10%);
+    color: #111010;
+    font-size: 11pt;
+}
+#btn{
+    margin-top: 0%;
+    width: 100%;
+    text-align: center;
+}
+#btn button{
+    font-family:'Bitter' , sans-serif;
+    background: #161525;
+    width: 65%;
+    height: 45px;
+    font-size: 1.2em;
+    color: #e1e2e4;
+    border-radius: 15px;
+    border:#141a33 solid;
+    outline: none;
+    cursor: pointer;
+}
+#btn button:hover{
+    background: linear-gradient(-45deg, #161525, #1e1e2c); 
+}
+/*login*/
+
+h3{
+    font-size: 2.4em;
+    margin-bottom: 5%;
+    text-align: center;
+    font-family: 'Inika' , sans-serif;
+
+}
+
+.a{
+    min-width: 280px;
+    border-radius: 15px;
+    border: 1px #141a33 solid;
+    padding: 9px;
+    margin: 3px -10px 20px -5px;
+}
+.a input{
+    width: 70%;
+    border: none;
+    outline: none;
+    font-family:'Poppins' , sans-serif;
+    transform: translateY(-10%);
+    color: #000000;
+    font-size: 11pt;
+}
+
+input#email{
+    background-color: #cdd7f8;
+    position: relative;
+}
+input#senha{
+    background-color: #cdd7f8;
+    position: relative;
+}
+#forma{
+    position: relative;
+    left: 340px;
+    top: -270px;
+    height: 380px;
+    transform: translate(-50%, -50%);
+    background: #cdd7f8;
+    border-radius: 10px;
+    border-style: solid;
+    border: 1px #111010 solid;
+    padding: 55px;
+    max-width: 400px;
+    align-items: center;
+    color: #161525;
+}
+
+.button{
+    margin-top: 10%;
+    width: 100%;
+    text-align: center;
+}
+.button button{
+    font-family:'Poppins' , sans-serif;
+    background: #161525;
+    width: 65%;
+    height: 45px;
+    font-size: 1.2em;
+    color: #e4e2e1;
+    border-radius: 15px;
+    border:#141a33 solid;
+    outline: none;
+    cursor: pointer;
+}
+
+.uabb-if-lost-your-pass-label {
+    color: #000000;
+}
+
+.uabb-if-input-group .uabb-if-row .uabb-if-lost-password{
+    margin: 0px 0px 12px 0px;
+}
+
+/*INICIO*/
+#corpo{
+    background: linear-gradient(-30deg, #0d32bb, #0d32bb);
+}
+header{
+    background-color: #0d32bb;
+    
+}
+li{
+    list-style: none;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+.navbar{
+    min-height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 34px; 
+}
+.logo{
+    font-size: 2rem;
+    font-weight: 490px;
+    font-family: 'petitinho' , sans-serif;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    
+}
+.nav-link{
+    transition: 0.2s ease;
+    font-size: 1.05rem;
+}
+.nav-link:hover{
+    color: rgb(3, 3, 3);
+}
+.hamburguer{
+    display: none;
+    cursor: pointer;
+    color: #0d32bb;
+}
+.bar{
+    display: block;
+    width: 28px;
+    height: 3px;
+    border-radius: 3px;
+    margin: 5px auto;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+@media(max-width:900px){
+    .hamburguer{
+        display: block;
+    }
+    .hamburguer.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburguer.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburguer.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-menu{
+        position: fixed;
+        left: -100%;
+        top: 55px;
+        gap: 0;
+        
+        border-radius: 0px 0px 20px 20px;
+        background-color: #021351;
+        text-align: center;
+        flex-direction: column;
+        width: 100%;
+        transition: 0.3s;
+        height: 70px;
+    }
+    .nav.item{
+        margin: 16px 0;
+    }
+    .nav-menu.active{
+        left: 0;
+    }
+}
+.in{
+    position: absolute;
+    text-align: center;
+    top: 200px;
+    left: 100px;
+    width: 400px;
+    line-height: 30px;
+    height: 30px;
+    color: #ffffff;
+    font-family:'Inika';
+}
+.ini{
+    position: absolute;
+    text-align: center;
+    top: 250px;
+    left: 100px;
+    width: 400px;
+    line-height: 35px;
+    color: #ffffff;
+    font-family:'Popins', serif;
+    font-size: 20px;
+
+}
+
+.container{
+    position: relative;
+    text-align: right;
+    top: -20px;
+    width: 1300px;
+}
+
+.white-bg{
+    background: var(--white-color);
+}
+.main-content {
+    max-width: 60rem;
+    margin: 5 auto;
+    padding: 5rem var(--gap);
+    font-family: 'Popins' , sans-serif;
+}
+
+h2{
+    color: #FFFFFF;
+}
+.coment{
+    color: #FFFFFF;
+}
+.caixa{
+    width: 600px;
+}
+.ir{
+    font-family:'Poppins' , sans-serif;
+    background: #000000;
+
+    width: 5%;
+    height: 35px;
+    font-size: 0.9em;
+    color: #e4e2e1;
+    border-radius: 15px;
+    border:#141a33 solid;
+    outline: none;
+    cursor: pointer;
+    margin-top: -5%;
+    text-align: center;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background: var(--white-color);
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60%;
+    color: var(--primary-color);
+    transform: rotate(-90deg);
+    border: 0.1rem solid var(--primary-color);
+}
+
+/*INDEX*/
+
+#corp{
+    background: linear-gradient(-30deg, #eef0f3, #eef0f3);
+}
+#para{
+    position: relative;
+    text-align: center;
+    top: 250px;
+    right: -800px;
+    color: #050505;
+    font-family: 'Bitter', sans-serif;
+    font-size: 25.2px;
+    line-height: 35px;
+    width: 400px;
+    text-shadow: #0104a0 2px 0px;
+    text-decoration: wavy;
+}
+#foto{
+    margin-top: -70px;
+}
+h1{
+    position: absolute;
+    text-align: start;
+    top: 80px;
+    left: 100px;
+    width: 800px;
+    line-height: 30px;
+    height: 30px;
+    color: #1b1b36;
+    font-family:'Giantypo' , sans-serif;
+    
+}
+
+#postarComentario {
+    margin-bottom: 20px;
+}
+
+textarea#textoComentario {
+    position: relative;
+    width: 45%;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    background-color: #c8cece;
+    padding: 5px;
+    border: none;
+    border-radius: 15px;
+    resize: none;
+}
+textarea#textoComentario::placeholder{
+    position: fixed;
+    left: 10px;
+    top: 5px; 
+    font-family: 'fixedsys 62';
+    font-size: 1.0rem;
+}
+button#postarComent{
+    position: relative;
+    font-family:'Inika' , sans-serif;
+    background: #4436fa;
+    width: 10%;
+    height: 35px;
+    font-size: 1.1em;
+    color: #e1e2e4;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    top: -50px;
+    left: -140px;
+}
+
+/*curvert petitinho forever after armygedon star killers radley d3 egoistism*/
+
+#usernameError{
+    color: rgb(218, 90, 5);
+    font-size: 14px;
+    font-family: 'Inika' , sans-serif;
+    position: relative;
+    top: -16px;
+    left: 5px;
+    font-weight: bolder;
+}
+#userError{
+    color: rgb(218, 90, 5);
+    font-size: 14px;
+    font-family: 'Inika' , sans-serif;
+    position: relative;
+    top: -16px;
+    left: 5px;
+    font-weight: bolder;
+}
+
+#emailError{
+    color: rgb(218, 90, 5);
+    font-size: 14px;
+    font-family: 'Inika' , sans-serif;
+    position: relative;
+    top: -16px;
+    left: 5px;
+    font-weight: bolder;
+}
+#senhaError{
+    color: rgb(218, 90, 5);
+    font-size: 14px;
+    font-family:'Inika', sans-serif;
+    position: relative;
+    top: -16px;
+    left: 5px;
+    font-weight: bolder;
+}
+
+
+#togglesenha{
+    position: absolute;
+    top: 270px;
+    right: 60px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#toggleSenha{
+    position: absolute;
+   right: 65px;
+}
+
+
+div#date{
+    font-size: 15px;
+}
+
+#logo{
+    font-family: 'Petitinho';
+    font-size: 2.0rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+

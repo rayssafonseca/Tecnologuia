@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <script src="https://kit.fontawesome.com/07ef07d65c.js" crossorigin="anonymous"></script>
+    <title>Cadastro</title>
+</head>
+<body id="corpo">
+    <header>
+        <nav class="navbar">
+            <a href="inicio.html" id="logo">TECNOLOGUIA</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="login.html" class="nav-link">Login</a></li>
+                <li class="nav-item"><a href="cadastro.html" class="nav-link">Cadastro</a></li>
+                <li class="nav-item"><a href="#Contato" class="nav-link">Contato</a></li>
+            </ul>
+
+            <div class="hamburguer">
+                <span class="bar"><a href="login.html"></a></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <img src="test.png" alt="">
+    </div>
+    
+    <div id="form">
+        <form id="">
+            <h2 class="title">CADASTRO</h2>
+
+            <label for="username">Nome</label>
+            <div class="input">
+                <i class="fa fa-user-circle" aria-hidden="true"></i>
+                <input id="username" placeholder="Digite seu nome" type="text" class="inputs required" oninput="nameValidate()">
+            </div>
+            <span id="usernameError" 
+                class="error-menssage" >Preencha o nome</span>
+<br>
+            <label for="user">Usuário</label>
+             <div class="input">
+                 <i class="fa-solid fa-envelope"></i>
+                 <input id="user" placeholder="User123" type="text" class="inputs required"  oninput="userValidate()">
+             </div>
+             <span id="userError" >Preencha seu usuário</span>
+    <br>     
+            <label for="email">Email</label>
+            <div class="input">
+                <i class="fa-solid fa-envelope"></i>
+                <input id="email" placeholder="fulanodetal@exemplo.com" type="text" class="inputs required"  oninput="emailValidate()">
+            </div>
+            <span id="emailError" class="error-menssage" > Preencha o email</span>
+<br>
+            <label for="senha">Senha</label>
+            <div class="input">
+                <i class="fa-solid fa-lock"></i>
+                <input id="senha" placeholder="digite sua senha" type="password" class="inputs required"  oninput="senhaValidate()">
+                <i id="toggleSenha" class="fa fa-eye"></i>
+            </div>
+            <span id="senhaError" class="error-menssage" > Preenca a senha</span>
+<br>
+            <div id="btn">
+                <button type="submit"><a href="index.html" onclick="" >CADASTRAR</a></button>
+            </div>
+        
+            
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
